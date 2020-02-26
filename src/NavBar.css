@@ -1,0 +1,25 @@
+.navbar{
+    color: black;
+}
+
+.navbar-inner{
+    width: 80%;
+}
+
+.nav-custom{
+    width: 200px;
+}
+
+.link{
+    color: gray !important;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: gray !important;
+    text-decoration: none;
+}
+
+.link:active{
+    color: #69a4e4 !important;
+}
