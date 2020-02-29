@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './NavBar';
+import AppointmentBooking from './AppointmentBooking';
 
 import './App.css';
 
@@ -8,6 +9,7 @@ class App extends Component {
     return (
       <div className="App" >
         <Navbar />
+        <AppointmentBooking />
       </div>
     );
   }

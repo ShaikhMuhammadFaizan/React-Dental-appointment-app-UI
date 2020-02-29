@@ -1,0 +1,22 @@
+.header{
+    background-image: url('./Assets/Exam+Blue.jpg');
+}
+
+.heading-text{
+    font-size: 24px;
+    font-weight: bold;
+}
+.desc-text{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.benefit-area{
+
+}
+
+.benefit-box{
+    width: 20%;
+    padding: 2%;
+
+}

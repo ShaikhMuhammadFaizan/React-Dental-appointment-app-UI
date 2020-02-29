@@ -19,7 +19,7 @@ class NavbarComp extends Component {
                             className="d-inline-block align-top"
                         />
                         Dentist
-            </Navbar.Brand>
+                    </Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                         <Nav className="nav-custom justify-content-between">
