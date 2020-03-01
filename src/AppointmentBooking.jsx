@@ -7,6 +7,23 @@ import { faCoffee, faFlask, faTooth } from '@fortawesome/free-solid-svg-icons'
 import './AppointmentBooking.css';
 
 class Appointmentbooking extends Component {
+
+    targetCustomerSection = () => {
+        return (
+            <div>
+                <h3>
+                    Clear Value for Your Target Customer
+                </h3>
+                <h5>
+                    This is sample text here
+                </h5>
+                <div>
+                    
+                </div>
+            </div>
+        )
+    }
+
     render() {
         return (
             <div className="header color-white-text d-flex justify-content-center align-items-center">
