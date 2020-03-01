@@ -1,22 +1,94 @@
 .header{
     background-image: url('./Assets/Exam+Blue.jpg');
+    padding: 5%;
+    /* padding: 5% 15% 5% 15%; */
+}
+
+.header-element{
+    /* width: 80%; */
+    flex-direction: row;
 }
 
 .heading-text{
     font-size: 24px;
     font-weight: bold;
 }
+
+.text-area{
+    text-align: left;
+}
+
 .desc-text{
     font-size: 14px;
     font-weight: 500;
 }
 
-.benefit-area{
+.text-area{
+    /* width: 45%; */
+    width: 400px;
+}
 
+
+.benefit-area{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .benefit-box{
-    width: 20%;
-    padding: 2%;
+    width: 45%;
+    padding: 20px;
+    background-color: #ffffff;
 
 }
+
+.form-area{
+    padding: 5%;
+    background-color: #ffffff;
+    width: 300px;
+    margin-left:10%;
+}
+
+.text-box {
+    border: none;
+    outline: none !important;
+    border-bottom: 2px solid #c1c1c1;
+}
+
+.text-box:active {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    border-bottom: 2px solid #42a3d6;
+}
+
+.text-box:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+    color: #42a3d6;
+    border-bottom: 2px solid #42a3d6;
+}
+
+@media only screen and (max-width: 800px) {
+.header-element{
+    flex-direction: column;
+    padding: 5%;
+}
+
+.form-area{
+    margin: 0%;
+    margin-top: 10%;
+    
+}
+
+.text-area{
+    text-align: center;
+    width: 350px;
+    
+}
+   
+}
+
+

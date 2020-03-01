@@ -32,6 +32,27 @@
   color: #ffffff;
 }
 
+.color-black-text{
+  color: #222222;
+}
+
+.sub-heading-text{
+  margin-top: 10%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sub-desc-text{
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.book-appointment-btn{
+  width: 100%;
+  border-radius: 0;
+  background: linear-gradient(90deg, rgba(47,111,173,1) 0%, rgba(66,163,214,1) 50%, rgba(66,163,214,1) 100%);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
