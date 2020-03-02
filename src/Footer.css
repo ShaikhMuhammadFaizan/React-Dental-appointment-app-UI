@@ -1,0 +1,41 @@
+.footer{
+    margin-top: 5%;
+    background-image: url('./Assets/Exam+Blue.jpg');
+    flex-direction: column;
+    padding: 5%;
+}
+
+.book-now-footer-form{
+    margin-top: 3%;
+    width: 80%;
+    padding: 3%;
+    flex-direction: row;
+}
+
+.footer-btn{
+    width: 45% !important;
+}
+
+.footer-text-box{
+   margin: 0% 2% 0% 0%;
+   width: 90%;
+}
+
+@media only screen and (max-width: 700px) {
+    .book-now-footer-form{
+        width: 60%;
+        padding: 5%;
+        flex-direction: column;
+        
+    }
+
+    .footer-text-box{
+        margin: 0% 0% 5% 0%;
+        width: 90%;
+     }
+   
+    .footer-btn{
+            width: 90% !important;
+    }
+        
+}

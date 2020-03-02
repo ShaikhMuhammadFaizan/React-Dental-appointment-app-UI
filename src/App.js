@@ -6,6 +6,7 @@ import DenstistInfo from './DenstistInfo';
 import WorldRepresentation from './WorldRepresentation';
 import TotalAchievements from './TotalAchievements';
 import OtherDentists from './OtherDentists';
+import Footer from './Footer';
 
 
 import './App.css';
@@ -21,6 +22,7 @@ class App extends Component {
         <WorldRepresentation />
         <TotalAchievements />
         <OtherDentists />
+        <Footer />
       </div>
     );
   }
