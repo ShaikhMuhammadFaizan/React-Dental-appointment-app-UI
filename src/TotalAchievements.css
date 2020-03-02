@@ -1,0 +1,15 @@
+.total-achievements{
+    margin-top: 3%;
+    background-image: url('./Assets/dental-cover.jpg');
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5% 8% 3% 8%;
+}
+
+.achievements{
+    flex-direction: column;
+}
+
+.heading-text{
+    margin-bottom: 0;
+}
