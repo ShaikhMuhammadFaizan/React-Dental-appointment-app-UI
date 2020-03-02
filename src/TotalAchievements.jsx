@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFlask, faTooth } from '@fortawesome/free-solid-svg-icons'
-
-import Navbar from './NavBar';
+import { faTooth } from '@fortawesome/free-solid-svg-icons'
 
 import './TotalAchievements.css';
 

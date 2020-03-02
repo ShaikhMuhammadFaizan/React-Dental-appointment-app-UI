@@ -1,28 +1,12 @@
 import React, { Component } from 'react';
-import { Container, Form, Button } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faFlask, faTooth } from '@fortawesome/free-solid-svg-icons'
+import { faFlask, faTooth } from '@fortawesome/free-solid-svg-icons'
 
 import './AppointmentBooking.css';
 
 class Appointmentbooking extends Component {
-
-    targetCustomerSection = () => {
-        return (
-            <div>
-                <h3>
-                    Clear Value for Your Target Customer
-                </h3>
-                <h5>
-                    This is sample text here
-                </h5>
-                <div>
-                    
-                </div>
-            </div>
-        )
-    }
 
     render() {
         return (

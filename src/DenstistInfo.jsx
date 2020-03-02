@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Form, Button, Image } from 'react-bootstrap';
+import { Button, Image } from 'react-bootstrap';
 
 import mob1 from './Assets/dentist.jpg'
 
@@ -11,7 +11,7 @@ class DenstistInfo extends Component {
         return (
             <div className="denstist-info" >
                 <div className="denstist-img-area" >
-                    <Image className="denstist-img" src={mob1} />
+                    <Image className="denstist-img img-fluid" src={mob1} />
                 </div>
                 <div className="denstist-desc-area" >
                     <div className="denstist-desc" >

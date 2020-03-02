@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Container, Form, Button, Image } from 'react-bootstrap';
+import { Container, Image } from 'react-bootstrap';
 
 import mob1 from './Assets/map4.jpg'
 
@@ -13,7 +13,7 @@ class WorldRepresentation extends Component {
                 <div className="seprator"></div>
                 <p className="Big-heading-text">Clear Value for Your Target Customer</p>
                 <p className="sub-desc-text">A few sentences about your project. How it helps to solve clients problem. It should convinces the cutomers.</p>
-                <Image className="world-rep-image" src={mob1} />
+                <Image className="world-rep-image img-fluid" src={mob1} />
             </Container>
         );
     }

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Navbar, Container, Nav } from 'react-bootstrap';
-
-import Logo from './logo.svg'
+import { Navbar, Nav } from 'react-bootstrap';
 
 import './NavBar.css';
 
@@ -16,7 +14,7 @@ class NavbarComp extends Component {
                             src="/logo.svg"
                             width="30"
                             height="30"
-                            className="d-inline-block align-top"
+                            className="d-inline-block align-top img-fluid"
                         />
                         Dentist
                     </Navbar.Brand>
