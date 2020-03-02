@@ -5,6 +5,7 @@ import TargetCustomer from './TargetCustomer';
 import DenstistInfo from './DenstistInfo';
 import WorldRepresentation from './WorldRepresentation';
 import TotalAchievements from './TotalAchievements';
+import OtherDentists from './OtherDentists';
 
 
 import './App.css';
@@ -19,6 +20,7 @@ class App extends Component {
         <DenstistInfo />
         <WorldRepresentation />
         <TotalAchievements />
+        <OtherDentists />
       </div>
     );
   }

@@ -8,6 +8,7 @@
 
 .achievements{
     flex-direction: column;
+    margin: 2%;
 }
 
 .heading-text{
