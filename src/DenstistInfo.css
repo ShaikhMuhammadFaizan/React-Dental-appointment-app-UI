@@ -1,0 +1,62 @@
+.denstist-info{
+    background-image: url('./Assets/Exam+Blue.jpg');
+    position: relative;
+    padding: 5%;
+}
+
+.denstist-img-area{
+    /* height: 0%; */
+}
+
+.denstist-img{
+    width: 40%;
+}
+
+.denstist-desc-area{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+}
+
+.denstist-desc{
+    width: 30%;
+    /* height: 60%; */
+    padding: 3%;
+    margin-left: 50%;
+    /* margin: 3%; */
+    /* margin-top: 3%; */
+    background-color: #ffffff;
+    box-shadow: 11px 14px 50px -2px rgba(0,0,0,0.49);
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.denstist-name{
+    font-size: 24px;
+    font-weight: bold;
+    color: #42a3d6;
+}
+
+@media only screen and (max-width: 800px) {
+    .denstist-img{
+        width: 80%;
+    }
+    
+       
+}
+
+@media only screen and (max-width: 500px) {
+    .denstist-img{
+        width: 100%;
+    }
+    
+}

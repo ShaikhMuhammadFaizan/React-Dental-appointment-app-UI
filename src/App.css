@@ -53,6 +53,18 @@
   background: linear-gradient(90deg, rgba(47,111,173,1) 0%, rgba(66,163,214,1) 50%, rgba(66,163,214,1) 100%);
 }
 
+.Big-heading-text{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.seprator{
+  width: 30px;
+  height: 2px;
+  background-color: #42a3d6;
+  /* margin-bottom: 2%; */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
